@@ -50,7 +50,7 @@ L0  Quartz.NET（第三方，不建仓库）
 |---|---|
 | `MinGo.Quartz` (L1) | ✅ **已实现并验证**：核心库 + OpenTelemetry 集成 + 12 项测试全绿 + `MinGo.Quartz` 1.0.0 / `MinGo.Quartz.OpenTelemetry` 1.0.0 已打包（见该仓 `PLAN.md` §7） |
 | `MinGo.Quartz.Agent` (L2) | ✅ **已实现并验证**：Abstractions 契约包 + Agent SDK 迁移并组合 L1 观测（自动挂监听器）；M3 补强（Misfire 闭环/并发语义化/Trigger 级操作）；51/51 测试全绿；Sample.Agent ↔ PlatformStub 注册/心跳/上报 E2E 通过；`MinGo.Quartz.Agent.Abstractions` 1.0.0 / `MinGo.Quartz.Agent` 1.0.0 已打包（见该仓 `PLAN.md` §6） |
-| `MinGo.Quartz.Platform` (L3) | ⏳ 待实现 |
+| `MinGo.Quartz.Platform` (L3) | ✅ **已实现并验证**：ASP.NET Core Web API + EF Core/PostgreSQL；Agent 注册/心跳/注销、Scheduler 管理、Job CRUD+代理、ExecutionLog 持久化、SSE Activity Feed、批量操作、Token 鉴权、NSwag OpenAPI；29/29 测试全绿（见该仓 `PLAN.md` §7） |
 | `MinGo.Quartz.Platform.UI` (L4) | ⏳ 待实现 |
 | `MinGo.Quartz.Deploy` | ⏳ 待实现 |
 
