@@ -1,0 +1,15 @@
+[submodule "MinGo.Quartz"]
+	path = MinGo.Quartz
+	url = https://github.com/FFFirer/MinGo.Quartz.git
+[submodule "MinGo.Quartz.Agent"]
+	path = MinGo.Quartz.Agent
+	url = https://github.com/FFFirer/MinGo.Quartz.Agent.git
+[submodule "MinGo.Quartz.Deploy"]
+	path = MinGo.Quartz.Deploy
+	url = https://github.com/FFFirer/MinGo.Quartz.Deploy.git
+[submodule "MinGo.Quartz.Platform"]
+	path = MinGo.Quartz.Platform
+	url = https://github.com/FFFirer/MinGo.Quartz.Platform.git
+[submodule "MinGo.Quartz.Platform.UI"]
+	path = MinGo.Quartz.Platform.UI
+	url = https://github.com/FFFirer/MinGo.Quartz.Platform.UI.git
